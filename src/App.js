@@ -1,17 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import { Routes, Route } from "react-router";
+import Test from './components/Test';
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      
-      </header>
-    </div>
+   <Routes>
+    
+   </Routes>
   );
 }
 
