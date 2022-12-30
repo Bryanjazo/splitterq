@@ -1,0 +1,56 @@
+.nav-one-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  .nav-links {
+    list-style: none;
+    li {
+      display: inline-block;
+      padding: 0 2rem;
+      cursor: pointer;
+      span {
+        transition: all 0.3s ease;
+        &:hover {
+          color: aqua;
+        }
+      }
+    }
+  }
+
+  .login-button {
+    padding: 1rem 2.5rem;
+    background-color: white;
+    border: none;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+    &:hover {
+      color: aqua;
+    }
+  }
+
+  .sign-up-button {
+    padding: 1rem 2.5rem;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    &:hover {
+      color: aqua;
+    }
+  }
+  .cta {
+    display: flex;
+  }
+  .login-cont {
+    padding-right: 0.5rem;
+  }
+}
+
+li,
+a,
+button {
+  text-decoration: none;
+}
