@@ -1,19 +1,22 @@
 .nav-one-container {
+  font-family: "inter", sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
+
   .nav-links {
     list-style: none;
     li {
       display: inline-block;
       padding: 0 2rem;
       cursor: pointer;
+
       span {
         transition: all 0.3s ease;
-        &:hover {
-          color: aqua;
-        }
+        // &:hover {
+        //   color: aqua;
+        // }
       }
     }
   }
@@ -22,24 +25,31 @@
     padding: 1rem 2.5rem;
     background-color: white;
     border: none;
+    font-family: "inter", sans-serif;
+
+    font-weight: 600;
 
     cursor: pointer;
     transition: all 0.3s ease;
-    &:hover {
-      color: aqua;
-    }
+    // &:hover {
+    //   color: aqua;
+    // }
   }
 
   .sign-up-button {
     padding: 1rem 2.5rem;
-    background-color: aquamarine;
+    font-family: "inter", sans-serif;
+
+    background-color: #3164f4;
+    color: white;
     border: none;
+    font-weight: 600;
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s ease;
-    &:hover {
-      color: aqua;
-    }
+    // &:hover {
+    //   color: aqua;
+    // }
   }
   .cta {
     display: flex;

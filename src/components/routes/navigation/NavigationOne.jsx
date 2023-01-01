@@ -8,13 +8,16 @@ export default function NavigationOne() {
       <nav>
         <ul className="nav-links">
           <li className="nav-link-item">
-            <span>About Us</span>
+            <span>Home</span>
           </li>
           <li className="nav-link-item">
             <span>Pricing</span>
           </li>
           <li className="nav-link-item">
-            <span>Contact Us</span>
+            <span>About us</span>
+          </li>
+          <li className="nav-link-item">
+            <span>Contact us</span>
           </li>
         </ul>
       </nav>
